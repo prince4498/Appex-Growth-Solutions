@@ -1,0 +1,251 @@
+.hero-section {
+  position: relative;
+  min-height: 50rem;
+  width: 100%;
+  background-color: #000000c2;
+  display: flex;
+  align-items: center;
+  background-image: url('../images/person-working-laptop.avif');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  padding: 2rem 1rem;
+}
+
+.hero-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 5vw, 6rem);
+  line-height: 1.2;
+  font-weight: 100;
+  margin-bottom: clamp(20px, 4vw, 40px);
+  margin-left: 5%;
+}
+
+.animated-text-container {
+  height: clamp(70px, 12vw, 120px);
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.animated-text {
+  color: #38b6ff;
+  font-size: clamp(2.5rem, 4.5vw, 5.5rem);
+  font-weight: 700;
+  display: block;
+  position: absolute;
+  white-space: nowrap;
+}
+
+/* Animation classes */
+.animated-text-enter {
+  animation: slideInFromRight 0.5s forwards;
+}
+
+.animated-text-visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.animated-text-exit {
+  animation: slideOutToLeft 0.5s forwards;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background-color: #38b6ff;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.hero-description {
+  max-width: 750px;
+  margin-top: clamp(20px, 5vw, 70px);
+  padding-left: clamp(0.5rem, 2vw, 2rem);
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-description p {
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.play-button-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: clamp(120px, 15vw, 160px);
+  height: clamp(120px, 15vw, 160px);
+  margin: 0 auto;
+}
+
+.play-button {
+  position: absolute;
+  width: clamp(80px, 10vw, 100px);
+  height: clamp(80px, 10vw, 100px);
+  border-radius: 50%;
+  background-color: #38b6ff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #2da8f0;
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.play-icon {
+  font-size: clamp(30px, 6vw, 57px);
+  color: #000000;
+  transform: translateX(2px);
+}
+
+.learn-more-text {
+  position: absolute;
+  width: clamp(100px, 12vw, 120px);
+  height: clamp(100px, 12vw, 120px);
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  animation: rotation 10s linear infinite;
+}
+
+.circular-text {
+  width: 100%;
+  height: 100%;
+  fill: #ffffff;
+  font-size: 8.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@keyframes rotation {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* Media queries for better responsiveness */
+@media (max-width: 992px) {
+  
+  
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 4rem 1rem;
+  }
+  
+  .animated-text-container {
+    width: 100%;
+  }
+  
+  .animated-text {
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    min-height: auto;
+    padding: 3rem 1rem 4rem;
+  }
+  
+  .play-button-container {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media(max-width:500px){
+  .hero-flex{
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-description p{
+    text-align: center;
+  }
+
+  .hero-title{
+    font-size: clamp(2rem, 5vw, 6rem);
+  }
+  .animated-text{
+    font-size: clamp(2rem, 5vw, 6rem);
+  }
+
+  .hero-description{
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content{
+    margin-top: 4rem;
+  }
+}

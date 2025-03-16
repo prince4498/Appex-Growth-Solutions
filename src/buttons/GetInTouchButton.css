@@ -1,0 +1,35 @@
+/* GetInTouchButton.css */
+.get-in-touch-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 12px 24px;
+    background-color: #38b6ff; /* Blue color */
+    color: #000000;
+    font-weight: 500;
+    border-radius: 9999px; /* Fully rounded */
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  
+  .get-in-touch-btn:hover {
+    background-color: #2493D4; 
+  }
+  
+  .get-in-touch-btn span {
+    margin-right: 8px;
+    font-weight: 900;
+  }
+  
+  .arrow {
+    font-weight: 900;
+    transition: transform 0.3s ease;
+  }
+  
+  .get-in-touch-btn.hovered .arrow {
+    transform: rotate(45deg);
+  }

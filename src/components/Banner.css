@@ -1,0 +1,53 @@
+/* AboutBanner.css */
+.page-header {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-content {
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .home-text {
+    color: #999;
+    cursor: pointer;
+  }
+  
+  
+  .separator {
+    margin: 0 0.8rem;
+    color: #555;
+  }
+  
+  .banner-text {
+    color: #38b6ff;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .page-header {
+      height: 150px;
+    }
+    
+    .header-title {
+      font-size: 1.5rem;
+    }
+  }

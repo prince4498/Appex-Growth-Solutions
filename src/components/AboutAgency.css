@@ -1,0 +1,518 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.about-page-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Page Header with Home/About */
+.page-header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/about-us-page-banner.jpg"); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2rem;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.home-text {
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.home-text:hover {
+  color: #38b6ff;
+}
+
+.separator {
+  margin: 0 15px;
+  color: #555;
+}
+
+.about-text {
+  color: #38b6ff; /* Themed blue color */
+}
+
+/* Breadcrumb Navigation - Can be removed if using header instead */
+.breadcrumb {
+  display: none; /* Hide the original breadcrumb */
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  width: 100%;
+  padding: 4rem;
+}
+
+.star {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.star-about {
+  margin-left: 30px;
+}
+
+.about-left {
+  flex: 1;
+  position: relative;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  padding-left: 40px;
+}
+
+.about-heading {
+  font-size: 1rem;
+  margin-left: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.main-heading-h1,
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  color: #38b6ff;
+}
+
+.sphere-image {
+  background-image: url('../images/sphere-155819_640.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  margin-top: auto;
+}
+
+.indicator-dots {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.active-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #38b6ff;
+}
+
+/* Feature Cards */
+.feature-card {
+  margin-bottom: 50px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.icon-container {
+  position: absolute;
+  left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-shapes,
+.icon-cube,
+.icon-layers {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.feature-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* Our Story Section */
+.our-story-section {
+  display: flex;
+  padding: 6rem 4rem;
+  background-color: #0a0a0a;
+}
+
+.story-left {
+  flex: 1;
+  padding-right: 60px;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #38b6ff;
+}
+
+.story-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.stats-container {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.stat-item {
+  flex: 1;
+}
+
+.stat-number {
+  font-size: 40px;
+  font-weight: 700;
+  color: #38b6ff;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #999;
+}
+
+.story-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-image-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.story-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.award-badge {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.award-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.award-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.award-year {
+  font-size: 12px;
+  color: #38b6ff;
+  font-weight: 600;
+}
+
+.award-name {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Process Section */
+.process-section {
+  padding: 6rem 4rem;
+}
+
+.process-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.process-step {
+  background-color: #111;
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.process-step:hover {
+  background-color: #161616;
+  transform: translateY(-10px);
+}
+
+.step-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #38b6ff;
+  opacity: 0.4;
+  margin-bottom: 20px;
+}
+
+.step-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.step-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* Team Section */
+.team-section {
+  padding: 6rem 4rem;
+  background-color: #0a0a0a;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.member-image-container {
+  width: 100%;
+  padding-bottom: 100%; /* Creates a square aspect ratio */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.member-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.member-image-container:hover .member-image {
+  transform: scale(1.05);
+}
+
+/* These would be replaced with actual team member images */
+.member-image-1 {
+  background-color: #222;
+}
+
+.member-image-2 {
+  background-color: #333;
+}
+
+.member-image-3 {
+  background-color: #444;
+}
+
+.member-image-4 {
+  background-color: #555;
+}
+
+.member-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.member-role {
+  font-size: 16px;
+  color: #38b6ff;
+}
+
+.team-cta {
+  text-align: center;
+  background-color: #111;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.team-cta-text {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .about-section,
+  .our-story-section {
+    flex-direction: column;
+  }
+  
+  .about-left,
+  .about-right,
+  .story-left,
+  .story-right {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .about-right {
+    margin-top: 60px;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 40px;
+  }
+  
+  .story-right {
+    margin-top: 60px;
+  }
+  
+  .main-heading-h1,
+  .section-title {
+    font-size: 36px;
+  }
+
+  .header-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    height: 200px;
+  }
+
+  .about-section,
+  .our-story-section,
+  .process-section,
+  .team-section {
+    padding: 3rem 2rem;
+  }
+  
+  .process-steps,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 425px){
+.main-heading-h1, .section-title {
+    font-size: 28px;
+}
+}

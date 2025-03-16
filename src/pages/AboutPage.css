@@ -1,0 +1,428 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.about-page-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Removed breadcrumb styles as they're now in AboutBanner.css */
+
+/* Star icon styling */
+.star {
+    height: 20px;
+}
+
+/* About section styles removed as they're handled by AboutAgency component */
+
+.highlight {
+  color: #38b6ff;
+}
+
+/* Our Story Section */
+.our-story-section {
+  display: flex;
+  padding: 6rem 4rem;
+  background-color: #0a0a0a;
+}
+
+.story-left {
+  flex: 1;
+  padding-right: 60px;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #38b6ff;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.story-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.stats-container {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.stat-item {
+  flex: 1;
+}
+
+.stat-number {
+  font-size: 40px;
+  font-weight: 700;
+  color: #38b6ff;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #999;
+}
+
+.story-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-image-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.story-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.award-badge {
+  position: absolute;
+  width: 15rem;
+  bottom: 30px;
+  left: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.award-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.award-role {
+  display: inline-block;
+}
+.award-role {
+  display: inline-block;
+  opacity: 0;
+}
+/* Enter animation with typewriter */
+.animated-text-about-enter {
+  animation: slideInFromRight 0.5s forwards, typewriter 2s steps(20) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #333;
+}
+
+/* Exit animation */
+
+/* Slide In */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Slide Out */
+@keyframes slideOutToLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+/* Typewriter effect */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Optional blinking cursor */
+.animated-text-about-enter::after {
+  content: "|";
+  animation: blink 0.3s infinite;
+  margin-left: 4px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
+
+
+.award-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+}
+
+.roles {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.maulik-story {
+  font-size: 14px;
+}
+
+.maulik-story p{
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.maulik-story ul{
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.award-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.award-year {
+  font-size: 12px;
+  color: #38b6ff;
+  font-weight: 600;
+}
+
+.award-name {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Process Section */
+.process-section {
+  padding: 6rem 4rem;
+}
+
+.process-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.process-step {
+  background-color: #111;
+  padding: 30px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.process-step:hover {
+  background-color: #161616;
+  transform: translateY(-10px);
+}
+
+.step-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #38b6ff;
+  opacity: 0.4;
+  margin-bottom: 20px;
+}
+
+.step-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.step-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* Team Section */
+.team-section {
+  padding: 6rem 4rem;
+  background-color: #0a0a0a;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.team-grid {
+  display: grid;
+  width: 50%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.member-image-container {
+  width: 100%;
+  padding-bottom: 100%; /* Creates a square aspect ratio */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.member-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.member-image-container:hover .member-image {
+  transform: scale(1.05);
+}
+
+/* These would be replaced with actual team member images */
+.member-image-1 {
+  background-color: #222;
+}
+
+.member-image-2 {
+  background-color: #333;
+}
+
+.member-image-3 {
+  background-color: #444;
+}
+
+.member-image-4 {
+  background-color: #555;
+}
+
+.member-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.member-role {
+  font-size: 16px;
+  color: #38b6ff;
+}
+
+.team-cta {
+  text-align: center;
+  background-color: #111;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.team-cta-text {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .our-story-section {
+    flex-direction: column;
+  }
+  
+  .story-left,
+  .story-right {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .story-right {
+    margin-top: 60px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-story-section,
+  .process-section,
+  .team-section {
+    padding: 3rem 2rem;
+  }
+  
+  .process-steps,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

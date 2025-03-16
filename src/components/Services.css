@@ -1,0 +1,218 @@
+/* General styling */
+.artistics-page {
+  background-color: #111111;
+  color: white;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  padding: 4rem;
+}
+
+.star{
+  width: 20px;
+  position: absolute;
+  top: 2.5px;
+  left: -30px;
+
+}
+
+/* Services section */
+.services-section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+/* Header with asterisk */
+.services-header {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  margin-left: 30px;
+  position: relative;
+  font-weight: 900;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+.asterisk {
+  color: #acff00;
+  font-size: 1.8rem; /* Increased size */
+  margin-right: 0.5rem;
+}
+
+/* Main heading */
+.main-heading {
+  display: flex;
+  gap: 5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+
+.main-heading h1{
+  font-size: 3rem;
+}
+
+/* Community text */
+.community-text {
+  margin-left: auto;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+/* Service buttons */
+.services-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+  margin-bottom: 4rem;
+}
+
+.all-services-btn {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.arrow-btn {
+  background-color: #38b6ff ;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  font-size: 1.4rem; /* Increased size */
+}
+
+/* Service cards */
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.service-card {
+  background-color: #1a1a1a;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for smooth animation */
+  cursor: pointer;
+}
+
+/* Added hover effect for the card */
+.service-card:hover {
+  transform: translateY(-10px); /* Slide up on hover */
+  box-shadow: 0 10px 10px #38b6ff ;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.card-icon {
+  width: 3rem;
+  height: 3rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.diamond-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23acff00'%3E%3Cpath d='M12 1L1 12l11 11 11-11L12 1zm0 22L2 12 12 2l10 10-10 10z'/%3E%3C/svg%3E");
+}
+
+.analytics-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23acff00'%3E%3Cpath d='M3.5 18.5L9.5 12.5L13.5 16.5L22 6.92L20.59 5.5L13.5 13.5L9.5 9.5L2 17L3.5 18.5Z'/%3E%3C/svg%3E");
+}
+
+.creative-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23acff00'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z'/%3E%3Ccircle cx='6.5' cy='12' r='1.5'/%3E%3Ccircle cx='12' cy='6.5' r='1.5'/%3E%3Ccircle cx='17.5' cy='12' r='1.5'/%3E%3C/svg%3E");
+}
+
+.card-arrow {
+  color: #38b6ff ;
+  font-size: 1.8rem; /* Increased size */
+  transition: transform 0.3s ease; /* Added transition for smooth rotation */
+}
+
+/* Added transform for horizontal arrow on hover */
+.service-card:hover .card-arrow {
+  transform: rotate(45deg); /* Rotate to horizontal position on hover */
+}
+
+.service-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.service-card p {
+  line-height: 1.6;
+  color: #aaaaaa;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2rem 0;
+}
+
+.cta-link {
+  color: #38b6ff ;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 992px) {
+  .main-heading {
+    max-width: 100%;
+  }
+  
+  .community-text {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  
+  .services-buttons {
+    margin-left: 0;
+  }
+  
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .service-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:424px){
+  .service-card{
+    padding: 1rem;
+  }
+}

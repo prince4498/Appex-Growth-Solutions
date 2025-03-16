@@ -1,0 +1,265 @@
+.contact-page {
+  width: 100%;
+  background-color: #000;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 30, 0, 0.8));
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 4rem;
+  position: relative;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.left-content {
+  flex: 1;
+  padding-top: 20px;
+}
+
+.headline h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #38b6ff;
+}
+
+.subtext {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info-box {
+  background-color: #111;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.icon-container-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-info-text h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact-info-text p {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.address-box {
+  justify-content: flex-start;
+}
+
+.right-content {
+  flex: 1;
+}
+
+.contact-form {
+  background-color: #111;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.input-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.input-container {
+  flex: 1;
+  position: relative;
+}
+
+.full-width {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  outline: 1px solid #38b6ff67;
+  background-color: #0c0c0c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+input.error {
+  outline: 1px solid #ff3838;
+}
+
+.error-message {
+  color: #ff3838;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+textarea {
+  min-height: 150px;
+  resize: none;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #888;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #38b6ff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2aa0e9;
+}
+
+.action-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.document-button, .cart-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* Thank you message styles */
+.thank-you-message {
+  background-color: #111;
+  border-radius: 15px;
+  padding: 50px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.thank-you-message h2 {
+  font-size: 32px;
+  color: #38b6ff;
+  margin-bottom: 20px;
+}
+
+.thank-you-message p {
+  color: #e0e0e0;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.new-message-button {
+  padding: 15px 30px;
+  background-color: #38b6ff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-message-button:hover {
+  background-color: #2aa0e9;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  
+  .contact-info-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .headline h1 {
+    font-size: 36px;
+  }
+  
+  .input-row {
+    flex-direction: column;
+  }
+
+  .contact-page {
+    padding: 2rem;
+  }
+}
+
+@media(max-width:425px){
+  .contact-page {
+    padding: 1rem;
+}
+.contact-form{
+  padding: 5px;
+}
+.contact-container {
+  flex-direction: column;
+  gap: 2rem;
+}
+.contact-info-text p {
+  color: #cccccc;
+  font-size: 10px;
+}.contact-info-text h3 {
+  font-size: 14px;}
+
+  .contact-info-box{
+    padding: 15px;
+  }
+}

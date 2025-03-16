@@ -1,0 +1,186 @@
+/* General styling */
+.benefits-page {
+    background-color: #111111;
+    color: white;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 50rem;
+    padding: 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Sphere background */
+  .sphere-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 600px;
+    height: 600px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='none' stroke='%23333' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='50' r='35' fill='none' stroke='%23333' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%23333' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='50' r='25' fill='none' stroke='%23333' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='50' r='20' fill='none' stroke='%23333' stroke-width='0.5'/%3E%3C/svg%3E");
+    background-size: cover;
+    opacity: 0.4;
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  /* Benefits container */
+  .benefits-container {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .star-benefit{
+    margin-left:30px
+  }
+  /* Header with asterisk */
+  .benefits-header {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-left: 30px;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  
+  .asterisk {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* Benefits content section */
+  .benefits-content {
+    display: flex;
+    gap: 8rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+  
+  .left-content {
+    width: 50%;
+  }
+  
+  .right-content {
+    width: 40%;
+  }
+  
+  /* Main heading */
+  .main-heading-benefit {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  
+  .highlight {
+    color: #38b6ff;
+  }
+  
+  /* Benefits description */
+  .benefits-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Benefits cards grid */
+  .benefits-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  
+  /* Individual benefit card */
+  .benefit-card {
+    background-color: rgba(26, 26, 26, 0.8);
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px #38b6ff54;
+  }
+  
+  /* Card number */
+  .card-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Card icons */
+  .card-icon {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  
+  /* Card title and description */
+  .benefit-card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .benefit-card p {
+    line-height: 1.6;
+    color: #aaaaaa;
+    font-size: 0.95rem;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1200px) {
+    .benefits-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .benefits-page {
+      padding: 2rem;
+    }
+    .card-number{
+      text-align: center;
+    }
+    .benefit-card {
+      text-align: center;
+      align-items: center;
+      padding: 1rem;
+    }
+    .benefits-content {
+      flex-direction: column;
+    }
+    
+    .left-content, .right-content {
+      width: 100%;
+    }
+    
+    .right-content {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .main-heading-benefit {
+      font-size: 2.5rem;
+    }
+    
+    .benefits-cards {
+      text-align: center;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media(max-width:424px){
+    .benefits-page {
+      padding: 1rem;
+  }
+  }
