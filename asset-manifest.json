@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Appex-Growth-Solutions/static/css/main.4e24f499.css",
-    "main.js": "/Appex-Growth-Solutions/static/js/main.dae85341.js",
+    "main.js": "/Appex-Growth-Solutions/static/js/main.e79c47bc.js",
     "static/media/team-img.jpg": "/Appex-Growth-Solutions/static/media/team-img.26bb732c01228658a499.jpg",
     "static/media/maulik.png": "/Appex-Growth-Solutions/static/media/maulik.27f8b7a89af09c60e6a3.png",
     "static/media/05_res.png": "/Appex-Growth-Solutions/static/media/05_res.4675b4f6b420c9aeaba8.png",
@@ -48,10 +48,10 @@
     "static/media/fa-v4compatibility.woff2": "/Appex-Growth-Solutions/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/Appex-Growth-Solutions/index.html",
     "main.4e24f499.css.map": "/Appex-Growth-Solutions/static/css/main.4e24f499.css.map",
-    "main.dae85341.js.map": "/Appex-Growth-Solutions/static/js/main.dae85341.js.map"
+    "main.e79c47bc.js.map": "/Appex-Growth-Solutions/static/js/main.e79c47bc.js.map"
   },
   "entrypoints": [
     "static/css/main.4e24f499.css",
-    "static/js/main.dae85341.js"
+    "static/js/main.e79c47bc.js"
   ]
 }
