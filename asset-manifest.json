@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.36273ef4.css",
-    "main.js": "/static/js/main.a2985de4.js",
+    "main.js": "/static/js/main.6e621558.js",
     "static/media/team-img.jpg": "/static/media/team-img.26bb732c01228658a499.jpg",
     "static/media/maulik.png": "/static/media/maulik.27f8b7a89af09c60e6a3.png",
     "static/media/05_res.png": "/static/media/05_res.4675b4f6b420c9aeaba8.png",
@@ -48,10 +48,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
     "main.36273ef4.css.map": "/static/css/main.36273ef4.css.map",
-    "main.a2985de4.js.map": "/static/js/main.a2985de4.js.map"
+    "main.6e621558.js.map": "/static/js/main.6e621558.js.map"
   },
   "entrypoints": [
     "static/css/main.36273ef4.css",
-    "static/js/main.a2985de4.js"
+    "static/js/main.6e621558.js"
   ]
 }
