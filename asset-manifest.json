@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.c5a2060d.css",
-    "main.js": "/static/js/main.aa7649b3.js",
+    "main.js": "/static/js/main.16cdc72b.js",
     "static/media/01.png": "/static/media/01.408cee08bb4b9809274e.png",
     "static/media/team-img.jpg": "/static/media/team-img.26bb732c01228658a499.jpg",
     "static/media/prince.png": "/static/media/prince.90d66beb56f3cbd76c3e.png",
     "static/media/02.png": "/static/media/02.60f703ba09795da3667f.png",
     "static/media/03.png": "/static/media/03.0530b2f9422f056a3483.png",
-    "static/media/reebok-01.png": "/static/media/reebok-01.0cbe019d1ad50a04e64f.png",
     "static/media/maulik02.png": "/static/media/maulik02.1cc33e519793e46fbe99.png",
     "static/media/04.png": "/static/media/04.58132884428965c21935.png",
     "static/media/minar-02.png": "/static/media/minar-02.2b11bc869356e533124b.png",
@@ -15,6 +14,7 @@
     "static/media/gia-01.png": "/static/media/gia-01.3da4e6ec1f16f82fccf7.png",
     "static/media/hero.mp4": "/static/media/hero.50cee68f05b4c6dc001f.mp4",
     "static/media/moto-02.png": "/static/media/moto-02.ad4a07476b328a6cbf25.png",
+    "static/media/reebok-02.png": "/static/media/reebok-02.54c0ebc329f7a340d26b.png",
     "static/media/marvinmoo-01.png": "/static/media/marvinmoo-01.ffdf42ac82f110a2051a.png",
     "static/media/tata-02.png": "/static/media/tata-02.8b3db44ff8cdec61d8a3.png",
     "static/media/jainex-01.png": "/static/media/jainex-01.71989a2d6146711ac770.png",
@@ -90,10 +90,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
     "main.c5a2060d.css.map": "/static/css/main.c5a2060d.css.map",
-    "main.aa7649b3.js.map": "/static/js/main.aa7649b3.js.map"
+    "main.16cdc72b.js.map": "/static/js/main.16cdc72b.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a2060d.css",
-    "static/js/main.aa7649b3.js"
+    "static/js/main.16cdc72b.js"
   ]
 }
