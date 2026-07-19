@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c5a2060d.css",
-    "main.js": "/static/js/main.1b5768b2.js",
+    "main.js": "/static/js/main.93c1cc2a.js",
     "static/media/glimpse.mp4": "/static/media/glimpse.2108c572a7abf23d0f57.mp4",
     "static/media/01.png": "/static/media/01.408cee08bb4b9809274e.png",
     "static/media/team-img.jpg": "/static/media/team-img.26bb732c01228658a499.jpg",
@@ -26,6 +26,7 @@
     "static/media/marvinmoo.png": "/static/media/marvinmoo.0aa5e7eade6cc250da00.png",
     "static/media/46.png": "/static/media/46.150e618e188fe59de38d.png",
     "static/media/42.png": "/static/media/42.867512fc914858ae8eca.png",
+    "static/media/protinex-01.png": "/static/media/protinex-01.24c5df801cd8126e61dc.png",
     "static/media/6.png": "/static/media/6.1698ccb1bc97d5a78974.png",
     "static/media/36.png": "/static/media/36.dd13ff560b5cba2053c3.png",
     "static/media/9.png": "/static/media/9.ba729817756aeb565cfc.png",
@@ -91,10 +92,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
     "main.c5a2060d.css.map": "/static/css/main.c5a2060d.css.map",
-    "main.1b5768b2.js.map": "/static/js/main.1b5768b2.js.map"
+    "main.93c1cc2a.js.map": "/static/js/main.93c1cc2a.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a2060d.css",
-    "static/js/main.1b5768b2.js"
+    "static/js/main.93c1cc2a.js"
   ]
 }
