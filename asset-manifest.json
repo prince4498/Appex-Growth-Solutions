@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c5a2060d.css",
-    "main.js": "/static/js/main.93c1cc2a.js",
+    "main.js": "/static/js/main.565c5808.js",
     "static/media/glimpse.mp4": "/static/media/glimpse.2108c572a7abf23d0f57.mp4",
     "static/media/01.png": "/static/media/01.408cee08bb4b9809274e.png",
     "static/media/team-img.jpg": "/static/media/team-img.26bb732c01228658a499.jpg",
@@ -40,6 +40,7 @@
     "static/media/magneticls.png": "/static/media/magneticls.8d7f6c89453b2d33402a.png",
     "static/media/22.png": "/static/media/22.cca502c739177f0f010d.png",
     "static/media/why-choose-image.jpg": "/static/media/why-choose-image.fccda5ca946d0d06463e.jpg",
+    "static/media/AGS_Logo_transperent.png": "/static/media/AGS_Logo_transperent.59e8d62c25a8615390e0.png",
     "static/media/15.png": "/static/media/15.fe11ecec43524fc5adc1.png",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/minar.png": "/static/media/minar.9968d19b21c41d1e28d3.png",
@@ -52,6 +53,7 @@
     "static/media/11.png": "/static/media/11.6efb0dc91794e21c8779.png",
     "static/media/12.png": "/static/media/12.008460846ea71358c031.png",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/muvix.png": "/static/media/muvix.6c40cef0968d0389d67c.png",
     "static/media/saurashtrahhc.png": "/static/media/saurashtrahhc.d93e3e5033eb399ffa01.png",
     "static/media/vmm.png": "/static/media/vmm.92497eda34cd9ab876f5.png",
     "static/media/shuttleskyprefab.jpg": "/static/media/shuttleskyprefab.b31e39f258f64435acff.jpg",
@@ -92,10 +94,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
     "main.c5a2060d.css.map": "/static/css/main.c5a2060d.css.map",
-    "main.93c1cc2a.js.map": "/static/js/main.93c1cc2a.js.map"
+    "main.565c5808.js.map": "/static/js/main.565c5808.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a2060d.css",
-    "static/js/main.93c1cc2a.js"
+    "static/js/main.565c5808.js"
   ]
 }
