@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23f641ef.css",
-    "main.js": "/static/js/main.fba88610.js",
+    "main.js": "/static/js/main.df339543.js",
     "static/media/glimpse.mp4": "/static/media/glimpse.2108c572a7abf23d0f57.mp4",
     "static/media/01.png": "/static/media/01.408cee08bb4b9809274e.png",
     "static/media/team-img.jpg": "/static/media/team-img.26bb732c01228658a499.jpg",
@@ -38,6 +38,7 @@
     "static/media/jk_furniture.png": "/static/media/jk_furniture.53274dce2e6cd0c9ac62.png",
     "static/media/maulik.jpg": "/static/media/maulik.cbb3a3b0856801287a81.jpg",
     "static/media/magneticls.png": "/static/media/magneticls.8d7f6c89453b2d33402a.png",
+    "static/media/AYURVEDIC KAYAM TABELT LOGO.png": "/static/media/AYURVEDIC KAYAM TABELT LOGO.529f75c252d1a848f7a3.png",
     "static/media/22.png": "/static/media/22.cca502c739177f0f010d.png",
     "static/media/why-choose-image.jpg": "/static/media/why-choose-image.fccda5ca946d0d06463e.jpg",
     "static/media/AGS_Logo_transperent.png": "/static/media/AGS_Logo_transperent.59e8d62c25a8615390e0.png",
@@ -54,6 +55,7 @@
     "static/media/12.png": "/static/media/12.008460846ea71358c031.png",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/muvix.png": "/static/media/muvix.6c40cef0968d0389d67c.png",
+    "static/media/sheth brothers.jpg": "/static/media/sheth brothers.0093baeca875a442c3ef.jpg",
     "static/media/saurashtrahhc.png": "/static/media/saurashtrahhc.d93e3e5033eb399ffa01.png",
     "static/media/vmm.png": "/static/media/vmm.92497eda34cd9ab876f5.png",
     "static/media/shuttleskyprefab.jpg": "/static/media/shuttleskyprefab.b31e39f258f64435acff.jpg",
@@ -94,10 +96,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
     "main.23f641ef.css.map": "/static/css/main.23f641ef.css.map",
-    "main.fba88610.js.map": "/static/js/main.fba88610.js.map"
+    "main.df339543.js.map": "/static/js/main.df339543.js.map"
   },
   "entrypoints": [
     "static/css/main.23f641ef.css",
-    "static/js/main.fba88610.js"
+    "static/js/main.df339543.js"
   ]
 }
