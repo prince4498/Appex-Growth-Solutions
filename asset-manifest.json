@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.23f641ef.css",
-    "main.js": "/static/js/main.2d96396d.js",
+    "main.js": "/static/js/main.910627c6.js",
     "static/media/glimpse.mp4": "/static/media/glimpse.2108c572a7abf23d0f57.mp4",
+    "static/media/194A9812.JPG.jpeg": "/static/media/194A9812.JPG.38143bb25c066f8a5f22.jpeg",
     "static/media/01.png": "/static/media/01.408cee08bb4b9809274e.png",
     "static/media/team-img.jpg": "/static/media/team-img.26bb732c01228658a499.jpg",
+    "static/media/AI Quotient Certificate_Appex Growth Solutions.jpg": "/static/media/AI Quotient Certificate_Appex Growth Solutions.02dc5c436b2c89841fcf.jpg",
     "static/media/prince.png": "/static/media/prince.90d66beb56f3cbd76c3e.png",
     "static/media/02.png": "/static/media/02.60f703ba09795da3667f.png",
     "static/media/03.png": "/static/media/03.0530b2f9422f056a3483.png",
@@ -41,6 +43,7 @@
     "static/media/AYURVEDIC KAYAM TABELT LOGO.png": "/static/media/AYURVEDIC KAYAM TABELT LOGO.529f75c252d1a848f7a3.png",
     "static/media/22.png": "/static/media/22.cca502c739177f0f010d.png",
     "static/media/why-choose-image.jpg": "/static/media/why-choose-image.fccda5ca946d0d06463e.jpg",
+    "static/media/badge.png": "/static/media/badge.8933db08d1656a15627b.png",
     "static/media/AGS_Logo_transperent.png": "/static/media/AGS_Logo_transperent.59e8d62c25a8615390e0.png",
     "static/media/15.png": "/static/media/15.fe11ecec43524fc5adc1.png",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -96,10 +99,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
     "main.23f641ef.css.map": "/static/css/main.23f641ef.css.map",
-    "main.2d96396d.js.map": "/static/js/main.2d96396d.js.map"
+    "main.910627c6.js.map": "/static/js/main.910627c6.js.map"
   },
   "entrypoints": [
     "static/css/main.23f641ef.css",
-    "static/js/main.2d96396d.js"
+    "static/js/main.910627c6.js"
   ]
 }
